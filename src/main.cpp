@@ -19,6 +19,7 @@
 
 #include <cstdlib>
 #include <mpi.h>
+#include <iostream>
 
 #if defined(LAMMPS_TRAP_FPE) && defined(_GNU_SOURCE)
 #include <fenv.h>
